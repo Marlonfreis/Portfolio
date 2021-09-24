@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Yaldevi:wght@300;700&display=swap");
+body {
+  font-family: "Yaldevi", sans-serif;
+  background: linear-gradient(236.85deg, #33658a 22.26%, #86bbd8 95.03%);
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+.container {
+  background: #ffe2fe;
+  color: #1c1c1c;
+  margin: 74px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 6px #08090a;
+  padding: 45px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+.perfil {
+  display: flex;
+  align-item: center;
+}
+.perfil-foto {
+  border-radius: 1000px;
+  max-height: 160px;
+  box-shadow: 4px 4px 4px rgba(2, 2, 2, 2);
+}
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h2 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  background: linear-gradient(236.85deg, #33658a 22.26%, #86bbd8 95.03%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgba(2, 2, 2, 2);
+}
+.redesSociais {
+  display: flex;
+  flex-direction: row;
+  align-items: bottom;
+  margin-top: 32px;
+}
+.redesSociais ul {
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+  list-style-type: none;
+}
+.fb {
+  max-height: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.in {
+  max-height: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+.projetos-item {
+  list-style-type: upper-roman;
+  font-weight: 450;
+  font-size: 24px;
+  line-height: 20px;
+  margin-top: 20px;
+}
+
+.projetos-item a {
+  color: #000000;
+  text-decoration: none;
+}
+.dark {
+  background: linear-gradient(236.85deg, #000000 22.26%, #6b87a9 95.03%);
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
